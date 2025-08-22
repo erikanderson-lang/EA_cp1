@@ -7,3 +7,5 @@
 # is = asignment oporator (yes = yes) 
 #content 
 #declaration is name of veriable
+#no spaces
+#shot names
