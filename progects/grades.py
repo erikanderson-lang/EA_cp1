@@ -1,0 +1,11 @@
+#EA cs 1st
+c1_grade = int(input("class 1 grade: "))
+c2_grade = int(input("class 2 grade: "))
+c3_grade = int(input("class 3 grade: "))
+c4_grade = int(input("class 4 grade: "))
+c5_grade = int(input("class 5 grade: "))
+c6_grade = int(input("class 6 grade: "))
+c7_grade = int(input("class 7 grade: "))
+total = (c7_grade + c6_grade + c5_grade + c4_grade + c3_grade + c2_grade + c1_grade)
+average = int(total/7)
+print(average)
