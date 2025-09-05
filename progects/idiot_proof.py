@@ -1,0 +1,10 @@
+#EA_cp1 idiot proof
+name = input("What is your first and last name: ").strip().title()
+Phone1 = input("What is yor phone numbers first three digets: ").strip()
+Phone2 = input("What is yor phone numbers second three digets: ").strip()
+Phone3 = input("What is yor phone numbers last four digets: ").strip()
+Gpa = input("and finaly your gpa: ").strip()
+print("")
+print(name) 
+print(Phone1 + " ", Phone2 + " ", Phone3)
+print(Gpa) 
