@@ -1,0 +1,11 @@
+#EA_cp1 Basic calculaor
+print("Basic calculator type in two numbers")
+n1 = int(input("First number: ".strip()))
+n2 = int(input("second number: ".strip()))
+print(n1, "+", n2, "=", n1+n2)
+print(n1, "-", n2, "=", n1-n2)
+print(n1, "*", n2, "=", n1*n2)
+print(n1, "/", n2, "=", n1/n2)
+print(n1, "//", n2, "=", n1//n2)
+print(n1, "%", n2, "=", n1%n2)
+print(n1, "**", n2, "=", n1**n2)
