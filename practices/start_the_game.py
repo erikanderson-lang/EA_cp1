@@ -1,6 +1,6 @@
 import random
 def start_game():
-    print("Welcome to the Number Guessing Game!")
+    print("Welcome to the Number Guessing Game comrade!")
     print("I'm thinking of a number between 1 and 100.")
     number_to_guess = random.randint(1, 100)
     max_attempts = 10
@@ -11,13 +11,21 @@ def start_game():
         if attempts >= max_attempts:
             print(f"Sorry, you've used all {max_attempts} attempts. The number was {number_to_guess}.")
             game_over = True
-        if guess == number_to_guess:
-            print("Congratulations! You've guessed the number!")
+        elif guess == number_to_guess:
+            print("Congratulations comrade! You've guessed the number!")
             game_over = True
         elif guess > number_to_guess:
-            print("Too high! Try again.")
+            print("Too high comrade! Try again.")
         elif guess < number_to_guess:
-            print("Too low! Try again.")  
+            print("Too low comrade! Try again.")  
         continue
-    print("Game Over. Thanks for playing!")
+    print("Game Over. Thanks for playing comrade!")
 start_game()
+
+# logic error, ln 14 if to elif
+
+#
+
+#
+
+#
