@@ -14,10 +14,10 @@
 #add functions
 
 #what does the modularity have to do with functions?
-#
+#makes it simpeler 
 
 #how do arguments and parameters work togather?
-#
+#by working togather
 
 #what are return statements? what do they do?
 #they replace the call with the answer
@@ -44,4 +44,8 @@ def initials(name):
     initials = ""
     for name in names:
         initials += name[0]
+    
     return initials
+
+print(f"a = {ord("a")}")
+print(f"97 = {chr(97)}")
