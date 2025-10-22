@@ -1,7 +1,9 @@
 #EA 1
-#user key choise
-phrase = input("What is the phrase comrade: ").lower()
-keyinput = float(input("key =: "))
+#user key and phrase choise
 
-print(f"a = {ord("a")}")
-print(f"97 = {chr(97)}")
+phrasein = input("What is the phrase comrade: ").lower()
+keyinput = float(input("key =: "))
+#
+phraseout = chr(+1)
+print (f"{phraseout}")
+print ("help me")
