@@ -2,8 +2,8 @@
 #user key and phrase choise
 
 phrasein = input("What is the phrase comrade: ").lower()
-keyinput = float(input("key =: "))
+keyinput = float(input("key =: ").strip())
 #
-phraseout = chr(+1)
+
+phraseout = (+1)
 print (f"{phraseout}")
-print ("help me")
