@@ -12,7 +12,14 @@ time.sleep(1)
 
     #checking password for capitals
 if password == (f"{password}"):
-        password.find("A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z")
+        password.find("A","B","C")
+        password.find("D","E","F")
+        password.find("G","H","I","J")
+        password.find("K","L","M")
+        password.find("N","O","P")
+        password.find("Q","R","S"),"T","U","V","W","X","Y","Z")
+        password.find
+        password.find
         print("+1b")
 else:
     print("You need a uppercase letter")
