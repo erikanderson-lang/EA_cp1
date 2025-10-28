@@ -69,5 +69,18 @@ time.sleep(1.5)
 print("oh nein a monster came out from behind a large rock ready to fight you!(dun dun dun)")
 time.sleep(.5)
 firstturn = random.randint(1,2)
-if firstturn ==
-print (firstturn)
+if firstturn = 2
+    print ("monster goes first.")
+elif 
+    print("you go first")
+
+action == int ("What would you like to do? 1. Normal Attack 2.Wild Attack (you can double the damage but you will also take damage) 3. Flee (You may or may not get away): ")
+
+
+
+
+
+
+
+
+
