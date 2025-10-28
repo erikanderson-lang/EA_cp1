@@ -71,10 +71,18 @@ time.sleep(.5)
 firstturn = random.randint(1,2)
 if firstturn = 2
     print ("monster goes first.")
+mondam == rand.randint(1-15)
+print (f"monster did {mondam} damage.")
+
+if playerdefencetwo == (0)
+    playerhealthtwo = (playerhealth - mondam) 
+elif
+    playerdefencetwo = (playerdefence - mandom)
+
 elif 
     print("you go first")
 
-action == int ("What would you like to do? 1. Normal Attack 2.Wild Attack (you can double the damage but you will also take damage) 3. Flee (You may or may not get away): ")
+action == int ("What would you like to do? 1. Normal Attack 2. Wild Attack (you can double the damage but you will also take damage) 3. Flee (You may or may not get away): ")
 
 
 
