@@ -71,13 +71,13 @@ time.sleep(.5)
 firstturn = random.randint(1,2)
 if firstturn = 2
     print ("monster goes first.")
-mondam == rand.randint(1-15)
+mondam = 12
 print (f"monster did {mondam} damage.")
-
+playerdefencetwo = playerdefence
 if playerdefencetwo == (0)
     playerhealthtwo = (playerhealth - mondam) 
 elif
-    playerdefencetwo = (playerdefence - mandom)
+    playerdefencetwo = (playerdefence - mandam)
 
 elif 
     print("you go first")
