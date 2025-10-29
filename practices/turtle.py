@@ -1,24 +1,6 @@
-import time
-import turtle as t
-import random
 #EACP1
-
-
-#What is a library?
-#a built in thing 
-
-#What libraries have we used?
-#time , random
-
-#What are some common python libraries?
-#nunmpy pygame matplotlib beautiful soup
-
-#How do you call built-in functions?
-#doing it
-
-#What are some common functions that we have used
-#rand.randint time.sleep
-
+import random
+import turtle as t
 
 t.shape("turtle")
 t.shapesize(1000)
