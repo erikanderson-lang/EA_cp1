@@ -1,6 +1,6 @@
 
 import turtle as t
-
+import random
 #EACP1
 
 
@@ -21,7 +21,7 @@ import turtle as t
 
 
 t.shape("turtle")
-t.shapesize(1000)
+t.shapesize(10)
 
 colors = ["blue", "red", "black"]
 side = random.randint(10,10000)
