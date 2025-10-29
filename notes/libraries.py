@@ -1,6 +1,6 @@
-import time
+
 import turtle as t
-import random
+
 #EACP1
 
 
@@ -31,9 +31,14 @@ t.speed(random.randint(3,5))
 
 t.fillcolor(random.choice(colors))
 t.begin_fill()
-for x in range(1,4):
-    t.forward(side)
-    t.right(90)
+t.forward(300)
+t.right(90)
+t.forward(300)
+t.right(90)
+t.forward(300)
+t.right(90)
+t.forward(300)
+t.right(90)
 t.end_fill()
 
 t.penup()
@@ -54,6 +59,3 @@ t.right(90)
 t.end_fill()
 
 t.done()
-
-
-t.shape("turtle")
