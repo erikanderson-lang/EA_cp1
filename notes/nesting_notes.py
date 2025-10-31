@@ -1,7 +1,7 @@
 #EACP1
 
 #What is nesting
-#
+#putting loops in loops
 
 #When have you used nesting in your code?
 #When we did the multiplacation table 
