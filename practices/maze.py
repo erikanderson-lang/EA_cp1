@@ -3,21 +3,68 @@ import turtle as t
 import random
 
 m = t.Turtle()
-maze = (1)
-while maze >= (1)
-m.shapesize(10000000)
+#makes maze outline
+m.left(90)
+m.forward(600)
+m.left(90)
+m.forward(550)
 m.penup()
-m.goto(400,400)
-m.showturtle()
+m.forward(50)
 m.pendown()
-m.back(380)
-m.penup()
-m.back(40)
-m.pendown()
-m.back(380)
-m.showturtle()
-m.right(90)
+m.left(90)
+m.forward(600)
+m.left(90)
+m.forward(550)
+m.hideturtle()
+#makes the inside
+tt = t.ycor()
+ttm = 
+tm = 
+bm = 
+bbm = 
+bb = 
+
+
+
+i = []
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 t.done()
+def isgood():
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    t.done()
