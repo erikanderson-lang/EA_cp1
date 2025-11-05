@@ -11,35 +11,27 @@ else:
 time.sleep(1)
 
     #checking password for capitals
-if password == (f"{password}"):
-        password.find("A","B","C")
-        password.find("D","E","F")
-        password.find("G","H","I","J")
-        password.find("K","L","M")
-        password.find("N","O","P")
-        password.find("Q","R","S"),"T","U","V","W","X","Y","Z")
-        password.find
-        password.find
-        print("+1b")
+if any(ch.isupper() for ch in password):
+    print("+1b")
 else:
     print("You need a uppercase letter")
     #checking password for a number
-if password == (f"{password}"):
-        password.find("1,2,3,4,5,6,7,8,9,0")
-        print("+1c")
+
+if any(ch.isdigit() for ch in password):
+    print("+1c")
 else:
-    print("You need a number")
+    print("you need one digit")
 
     #checking password for lowercase
-if password == (f"{password}"):
-        password.find("a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z")
-        print("+1d")
+if any(ch.islower() for ch in password):
+    print("+1d")
 else:
     print("you need a lowercase letter" )
 
 #checking for a special charicter
-if password == (f"{password}"):
-        password.find("!,@,#,$,%,^,&,*<(,),<,>,.,?,/,{,},|,-,_,+,=,`,~")
-        print("+1e")
+sepschar = set("!@#$%^&*()-_=+[]{}|;:'\",.<>?/`~")
+if any(ch in sepschar for ch in password):
+     print("+1e")
 else:
     print("you need a special charecter" )
+
