@@ -140,9 +140,63 @@ while True:
 el.right(90)
 el.forward(100)
 el.right(90)
-
+#colloms
 el.teleport(100,600)
-el.right(260)
+el.right(270)
+rock = 0
+while True:
+        if rock == 6:
+                break
+        if gridcol[1][rock] == 1:
+                el.pendown()
+                el.forward(100)
+                
+
+        if gridcol[1][rock] == 0:
+               el.penup()
+               el.forward(100)
+               
+        rock +=1
+el.left(90)
+el.forward(100)
+el.left(90)
+
+rock = 0
+while True:
+        if rock == 6:
+                break
+        if gridcol[2][rock] == 1:
+                el.pendown()
+                el.forward(100)
+                
+
+        if gridcol[2][rock] == 0:
+               el.penup()
+               el.forward(100)
+               
+        rock +=1
+el.right(90)
+el.forward(100)
+el.right(90)
+
+rock = 0
+while True:
+        if rock == 6:
+                break
+        if gridcol[3][rock] == 1:
+                el.pendown()
+                el.forward(100)
+                
+
+        if gridcol[3][rock] == 0:
+               el.penup()
+               el.forward(100)
+               
+        rock +=1
+el.left(90)
+el.forward(100)
+el.left(90)
+
 rock = 0
 while True:
         if rock == 6:
@@ -162,11 +216,22 @@ el.forward(100)
 el.right(90)
 
 
+rock = 0
+while True:
+        if rock == 6:
+                break
+        if gridcol[5][rock] == 1:
+                el.pendown()
+                el.forward(100)
+                
 
+        if gridcol[5][rock] == 0:
+               el.penup()
+               el.forward(100)
+               
+        rock +=1
 
-
-
-
+t.done()
 #checks to see if it is solvable
 
 t.done()
