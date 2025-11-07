@@ -38,6 +38,7 @@ gridcol = [
         [random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1)],
         [random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1)],
         [random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1)],
+        [random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1)],
         [random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1),random.randint(0,1)]]
 
 #new toitle
@@ -48,7 +49,7 @@ el.pencolor("blue")
 el.teleport(0,500)
 # checks if there is a wall and prints if there is
 
-
+#does the rows
 rock = 0
 while True:
         if rock == 6:
@@ -140,10 +141,10 @@ while True:
 el.right(90)
 el.forward(100)
 el.right(90)
-#colloms
 el.teleport(100,600)
 el.right(270)
 rock = 0
+#does the colloms
 while True:
         if rock == 6:
                 break
@@ -230,29 +231,29 @@ while True:
                el.forward(100)
                
         rock +=1
+el.hideturtle()
 
-t.done()
+
+
+mr = t.Turtle()
+mr.speed("fastest")
+mr.shape("square")
+mr.pencolor("red")
+#makes maze outline
+mr.penup()
+mr.forward(50)
+mr.pendown()
+mr.forward(550)
+mr.left(90)
+mr.forward(600)
+mr.left(90)
+mr.penup()
+mr.forward(50)
+mr.pendown()
+mr.forward(550)
+mr.pendown()
+mr.left(90)
+mr.forward(600)
+mr.hideturtle()
 #checks to see if it is solvable
-
 t.done()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
