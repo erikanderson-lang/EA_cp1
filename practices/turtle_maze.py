@@ -6,7 +6,7 @@ import time
 print("""When the maze generates you might need to scroll up in order to see
 part of the maze I am waiting to print the maze until you have read this.(There is a scoll bar on the side. Use that.)
 Wait.""")
-time.sleep(10)
+time.sleep(1)
 # Setup backgrownd
 e = t.Screen()
 e.setup(1300, 900)
