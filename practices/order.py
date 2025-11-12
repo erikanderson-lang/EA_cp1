@@ -2,23 +2,23 @@
 import time
 main = {
     "hamburger plain":54.99,
-    "double bacon cheese burgur":1.01,
-    "CHICKEN JOKEY STRIPS":99.99
+    "double bacon cheese burgur":10.01,
+    "chicken jokey strips":99.99
 }
 
 side = {
     "quesadilla":22.22,
     "fries":2.34,
-    "salad":199.02,
-    "":0.01
+    "salad":19.02,
+    " ":0.01
 }
 
 drink = {
-    "rootbeer":2.22,
-    "coke":2.34,
+    "rootbeer":1.22,
+    "coke":1.34,
     "american":199.02
 }
-print("hi welcome comerade to the food. Look at menu and choose what you want.")
+print(f"hi welcome comerade to the food. Look at menu and choose what you want.")
 print(" ")
 print(" ")
 print(" ")
@@ -44,4 +44,13 @@ print(" ")
 print(" ")
 print(" ")
 time.sleep(7)
-input("What do you want comerade: ")
+
+order_main= input("What do you want for main comerade: ")
+order_side= input("What do you want for side comerade: ")
+order_side2 = input("What do you want for second side comerade: ")
+order_drink= input("What do you want for drink comerade: ")
+ordre = order_main + order_side + order_side2 + order_drink
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+print(f"{ordre}")
+
+
