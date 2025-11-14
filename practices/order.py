@@ -74,9 +74,8 @@ else:
     print("did you look at the order or did you miss spell it comerade.")
 
 ordre = order_main + e + order_side + e + order_side2 + e + order_drink
-
-
+#prints and calculates the order
+order = {}
 print(f"order is {ordre}.")
-main["hamburger plain"]
-
-
+total = main[order_main] + side[order_side] + side[order_side2] + drink[order_drink]
+print (f"order price is {total:.2f}")
