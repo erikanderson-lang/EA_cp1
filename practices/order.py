@@ -1,5 +1,6 @@
 #EACP1
 import time
+#the different options for food
 main = {
     "hamburger plain":54.99,
     "double bacon cheese burgur":10.01,
@@ -18,6 +19,7 @@ drink = {
     "coke":1.34,
     "american":199.02
 }
+#prints the stuff
 print(f"hi welcome comerade to the food. Look at menu and choose what you want.")
 print(" ")
 print(" ")
@@ -45,6 +47,7 @@ print(" ")
 print(" ")
 time.sleep(1)
 e = (", ")
+#takes their order
 order_main = input("What do you want for main comerade: ").strip().lower()
 if order_main == "hamburger plain" or order_main == "double bacon cheese burgur" or order_main == "chicken jokey strips":
     print("")
@@ -74,4 +77,6 @@ ordre = order_main + e + order_side + e + order_side2 + e + order_drink
 
 
 print(f"order is {ordre}.")
+main["hamburger plain"]
+
 
