@@ -48,3 +48,8 @@ for key in person.keys():
         for name in [key]:
             print(f"{person['name']} has a sibiling named {name}")
     print(f"{key} is {person[key]}")
+
+my_dict = {"item1": 10, "item2": 20, "item3": 30}
+
+for value in my_dict.values():
+    print(f"Value: {value}")

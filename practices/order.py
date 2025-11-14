@@ -45,26 +45,26 @@ print(" ")
 print(" ")
 time.sleep(1)
 e = (", ")
-order_main = input("What do you want for main comerade: ").strip()
+order_main = input("What do you want for main comerade: ").strip().lower()
 if order_main == "hamburger plain" or order_main == "double bacon cheese burgur" or order_main == "chicken jokey strips":
     print("")
 else: 
     print("did you look at the order or did you miss spell it comerade.")
 
-order_side= input("What do you want for side comerade: ").strip()
+order_side= input("What do you want for side comerade: ").strip().lower()
 if order_side == "quesadilla" or order_side == "fries" or order_side == "salad" or order_side == " ":
         print("")
 else: 
     print("did you look at the order or did you miss spell it comerade.")
 
-order_side2 = input("What do you want for second side comerade: ").strip()
+order_side2 = input("What do you want for second side comerade: ").strip().lower()
 if order_side2 == "quesadilla" or order_side2 == "fries" or order_side2 == "salad" or order_side2 == " ":
         print("")
 else: 
     print("did you look at the order or did you miss spell it comerade.")
 
 
-order_drink= input("What do you want for drink comerade: ").strip()
+order_drink= input("What do you want for drink comerade: ").strip().lower()
 if order_drink == "rootbeer" or order_drink == "coke" or order_drink == "american":
         print("")
 else: 
@@ -73,5 +73,5 @@ else:
 ordre = order_main + e + order_side + e + order_side2 + e + order_drink
 
 
-print(f"{ordre}.")
-drink[]
+print(f"order is {ordre}.")
+
