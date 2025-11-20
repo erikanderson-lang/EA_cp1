@@ -1,22 +1,61 @@
-print("""comrade, steel production is down I said 
-comerade, you must sleep on the ground I said
-comerade, you must wipe off that froun or you will 
-spend 
-a
-month 
-in 
-the 
-gulags.
-
-comrade, comunisum is best I said
-comrade,there is still line for bread I said
-comrade, you will do what I said or you will
-spend 
-a
-month 
-in 
-the 
-gulags.
-      
-There is no fun in the U.S.S.R
-There is no fun in the U.S.S.R""")
+import time as t
+print("comrade,")
+t.sleep(1)
+print("steel production is down I said comerade")
+t.sleep(3)
+print("you must sleep on the ground I said comerade,")
+t.sleep(3)
+print("you must wipe off that froun or you will")
+t.sleep(3)
+print("spend")
+t.sleep(.7)
+print("a")
+t.sleep(.7)
+print("month")
+t.sleep(.7)
+print("in")
+t.sleep(.7)
+print("the")
+t.sleep(.3)
+print("gulags")
+t.sleep(.7)
+print(" ")
+print("comrade,")
+t.sleep(1)
+print("comunisum is best I said comerade,")
+t.sleep(3.2)
+print("there is still line for bread I said comerade,")
+t.sleep(3)
+print("you must do what I said or you will")
+t.sleep(3)
+print("spend")
+t.sleep(.7)
+print("a")
+t.sleep(.7)
+print("month")
+t.sleep(.7)
+print("in")
+t.sleep(.7)
+print("the")
+t.sleep(.3)
+print("gulags")
+t.sleep(3)
+print("There is no fun in the")
+t.sleep(2)
+print("U")
+t.sleep(.7)
+print("S")
+t.sleep(.7)
+print("S")
+t.sleep(.3)
+print("R")
+t.sleep(.3)
+print("There is no fun in the")
+t.sleep(2)
+print("U")
+t.sleep(.7)
+print("S")
+t.sleep(.7)
+print("S")
+t.sleep(.3)
+print("R")
