@@ -20,6 +20,7 @@ invintory = {
     "back pack slot two": 3,
     "back pack slot three": 4
     }
+
 print("security systems active.")
 t.sleep(1)
 print("you are looting a star cruiser about to sink in to an electrical storm when the security systems went off. you have twenty muinetes. you now need to get out before the ship sinks.")
@@ -27,10 +28,13 @@ t.sleep(3)
 print("or")
 t.sleep(1)
 print("the security droids destroy you. either way, you need to leave but first you need to go to the bridge and free the docking bay. time starts now.")
-choise =  int(input("go to hall(1) or loot storage room (2): "))
+choise = int(input("go to hall(1) or loot storage room (2): ").strip())
 if choise == 1:
-   print(" ")
+   pass
 elif choise == 2:
-    print (f"you got {r.choice(loot.keys())}")
+    print (f"you got {r.choice(loot.keys())}.")
+    
 else:
     print ("invalid choise redo")
+    
+print("E")
