@@ -36,18 +36,25 @@ def storeroom():
     else:
        print ("invalid choise redo")
 storeroom()
-fightrun = int(input("you are in the hall when you find securitydroids closing in. you can run(1) or fight(2): "))
-if fightrun == 1:
-    runchance = r.randint(1,2)
-    if runchance == 1:
-        print("you got away but ran into other droids who quickly disconected you from the server of life")
 
-    elif runchance == 2:
-       
-       print("")
+def hallfight():
+    fightrun = int(input("you are in the hall when you find securitydroids closing in. you can run(1) or fight(2): ").strip())
+    if fightrun == 1:
+        runchance = r.randint(1,2)
+        if runchance == 1:
+            print("you ran away into other droids who quickly disconected you from the server of life")
+        elif runchance == 2:
+            print("you got away")
+        else:
+            print("invalid choise redo")
+    elif fightrun == 2:
+        print("")
 
-else:
-   print ("invalid choise redo")
 
+    else:
+        print ("invalid choise redo")
 
-
+def hall():
+    hallway = int(input("There are two ways to go left bridge(1) or right to other rooms(2): ").strip())
+    if hallway == 1:
+        print("you make it to the bridge. You find the consel then words pop up on the screen saying '' ")
