@@ -76,19 +76,9 @@ print (f"monster did {mondam} damage.")
 playerdefencetwo = playerdefence
 if playerdefencetwo == (0)
     playerhealthtwo = (playerhealth - mondam) 
-elif
-    playerdefencetwo = (playerdefence - mandam)
+    playerdefencetwo = (playerdefence - mondam)
 
-elif 
+elif: 
     print("you go first")
 
 action == int ("What would you like to do? 1. Normal Attack 2. Wild Attack (you can double the damage but you will also take damage) 3. Flee (You may or may not get away): ")
-
-
-
-
-
-
-
-
-
