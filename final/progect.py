@@ -14,7 +14,7 @@ wealth = 0
 damage = 1
 
 invintory = []
-
+hangerfree = 0
 
 def game():
     free = 0
@@ -30,15 +30,15 @@ def game():
             looting = {r.choice(list(loot.keys()))}
             print(f"you got {looting}.")
             invintory.append(looting)
-            if looting == loot.keys():
+            if looting == "t-47 blaster rifle":
                 damage += 19
-            elif looting == loot.keys():
+            elif looting == "m-32 charge weapon":
                     damage += 14
-            elif looting == loot.keys():
+            elif looting == "250 marks":
                     wealth += 250
-            elif looting == loot.keys():
+            elif looting == "50 marks":
                     damage += 50
-            elif looting == loot.keys():
+            elif looting == "stimpack":
                     health += 20
         def storeroom():
             choise = int(input("go to hall(1) or loot storage room (2): ").strip())
@@ -67,7 +67,7 @@ def game():
                 pass
             else:
                 print ("invalid choise redo")
-        hangerfree = 0
+        
         def bridge():
             if hangerfree == 0:
                 print("you make it to the bridge. You find the consel then words pop up on the screen saying")
